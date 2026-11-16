@@ -1,0 +1,10 @@
+[out:json][timeout:240][date:"2026-09-03T14:01:20Z"];
+relation["type"="route"]["route"~"^(train|subway|light_rail|tram)$"](35.5,139.55,35.85,139.95)->.routes;
+way(r.routes)(35.5,139.55,35.85,139.95)->.routeways;
+way["natural"="coastline"](35.5,139.55,35.85,139.95)->.coast;
+node["railway"~"^(station|halt)$"](35.5,139.55,35.85,139.95)->.stations;
+(.routes;.routeways;.coast;.stations;);
+out body;
+(.routeways;.coast;);
+>;
+out skel qt;

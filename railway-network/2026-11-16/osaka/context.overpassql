@@ -1,0 +1,10 @@
+[out:json][timeout:180][date:"2026-08-12T01:33:36Z"];
+way["highway"~"^(motorway|trunk|primary|secondary)$"](34.53,135.34,34.85,135.68)->.roads;
+way["waterway"~"^(river|canal)$"](34.53,135.34,34.85,135.68)->.rivers;
+way["natural"="water"](34.53,135.34,34.85,135.68)->.water;
+relation["natural"="water"](34.53,135.34,34.85,135.68)->.waterrels;
+way(r.waterrels)(34.53,135.34,34.85,135.68)->.waterrelways;
+(.roads;.rivers;.water;.waterrelways;);
+out body;
+>;
+out skel qt;

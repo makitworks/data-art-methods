@@ -1,0 +1,57 @@
+{
+  "source": {
+    "network": {
+      "snapshot": "2026-09-03T14:01:20Z",
+      "elements": 69269,
+      "elements_sha256": "1f518c8e465fa19f2daacb912c2d8aec997d0ff3ad8b688b39a146a9e0e65d07",
+      "saved_response_sha256": "aba0512579a73b4c559b68f46a0e10058796b0888a20f73c59e4f078fb9cb6b1",
+      "original_bytes": 20683138,
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+    },
+    "context": {
+      "snapshot": "2026-09-03T14:02:21Z",
+      "elements": 217721,
+      "elements_sha256": "17627ddf0bf6ac95d5426930cb7a69c1728b220950b565bfb8e2c7c3297bfbea",
+      "saved_response_sha256": "8ec2a117e64fe61045de3868bdc45c8f9662aa7d4a4615e278c71edbc9f3c41c",
+      "original_bytes": 27395147,
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+    }
+  },
+  "processing": {
+    "bbox": [
+      35.5,
+      139.55,
+      35.85,
+      139.95
+    ],
+    "relation_colour_routes": [
+      "subway",
+      "light_rail",
+      "tram"
+    ],
+    "operator_colours": [],
+    "line_widths": {
+      "coastline": 0.78,
+      "train": 1.14,
+      "transit": 1.58
+    },
+    "fallback_train": "#656565",
+    "fallback_transit": "#555555",
+    "projection": "fitted"
+  },
+  "expected": {
+    "route_relation_count": 366,
+    "route_way_count": 6322,
+    "station_count": 797,
+    "coast_segment_count": 1910,
+    "context_road_segment_count": 102684,
+    "context_river_segment_count": 15330,
+    "context_water_segment_count": 52484,
+    "context_water_polygon_count": 2168,
+    "route_geometry_sha256": "9268d29c245a2fc3c558a1104f64b4f1e6bf24128ddc012bfacd36b3af8ea504"
+  },
+  "geometry_sha256": "fd58c787441cd880230e51577bca9c4675319fda600012f3b83633b0ca4eb4ee",
+  "database_sha256": "62427d61e4dae68b3607062f8027d17c601eb43f82e97f432e7668b19620cbe6",
+  "download_sha256": "75afcfde2e335fd2887d9ae40ddb25371a432c13b9d866a6b4a191f13a3de9cb",
+  "download_bytes": 5926542
+}

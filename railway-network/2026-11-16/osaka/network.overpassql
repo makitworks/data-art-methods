@@ -1,0 +1,11 @@
+[out:json][timeout:240][date:"2026-06-13T09:29:14Z"];
+relation["type"="route"]["route"~"^(train|subway|light_rail|tram|monorail)$"](34.53,135.34,34.85,135.68)->.routes;
+way(r.routes)->.routeways;
+way["natural"="coastline"](34.53,135.34,34.85,135.68)->.coast;
+way["natural"="water"]["water"~"^(river|canal)$"](34.53,135.34,34.85,135.68)->.water;
+node["railway"~"^(station|halt)$"](34.53,135.34,34.85,135.68)->.stations;
+(.routes;.routeways;.coast;.water;.stations;);
+out body;
+(.routeways;.coast;.water;);
+>;
+out skel qt;

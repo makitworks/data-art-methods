@@ -1,0 +1,139 @@
+{
+  "source": {
+    "network": {
+      "snapshot": "2026-06-13T09:29:14Z",
+      "elements": 151443,
+      "elements_sha256": "8dcea81136a8029f7512c6aa6b0e1cbb85f41ab9035539dff1104d27468bb711",
+      "saved_response_sha256": "b80ce8efc75ddf321d429b35d88a5577ce5a0e7641691c7783a36f541314edba",
+      "original_bytes": 42479944,
+      "endpoint": "https://overpass.kumi.systems/api/interpreter"
+    },
+    "context": {
+      "snapshot": "2026-08-12T01:33:36Z",
+      "elements": 169032,
+      "elements_sha256": "c5202e58f2b183a95adf5329a77232e05761b528cdccdf440b141afc67c514c5",
+      "saved_response_sha256": "5be15e1ba2b3e26bf8f8c72ba03b9ce491f20b5708d1149ad3293a621026fe6a",
+      "original_bytes": 20897665,
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+    }
+  },
+  "processing": {
+    "bbox": [
+      34.53,
+      135.34,
+      34.85,
+      135.68
+    ],
+    "relation_colour_routes": [
+      "subway",
+      "light_rail",
+      "tram",
+      "monorail"
+    ],
+    "operator_colours": [
+      {
+        "match": [
+          "大阪市高速電気軌道",
+          "Osaka Metro"
+        ],
+        "colour": "#333333"
+      },
+      {
+        "match": [
+          "阪急"
+        ],
+        "colour": "#4b1f2a"
+      },
+      {
+        "match": [
+          "阪神"
+        ],
+        "colour": "#f58220"
+      },
+      {
+        "match": [
+          "京阪"
+        ],
+        "colour": "#008a52"
+      },
+      {
+        "match": [
+          "近畿日本",
+          "近鉄",
+          "Kintetsu"
+        ],
+        "colour": "#c7003f"
+      },
+      {
+        "match": [
+          "南海",
+          "泉北"
+        ],
+        "colour": "#e60012"
+      },
+      {
+        "match": [
+          "西日本旅客",
+          "JR西日本",
+          "JR West"
+        ],
+        "colour": "#0072bc"
+      },
+      {
+        "match": [
+          "東海旅客",
+          "JR Central"
+        ],
+        "colour": "#f15a24"
+      },
+      {
+        "match": [
+          "北大阪急行"
+        ],
+        "colour": "#b21e35"
+      },
+      {
+        "match": [
+          "大阪モノレール",
+          "大阪高速鉄道"
+        ],
+        "colour": "#2e4fb5"
+      },
+      {
+        "match": [
+          "阪堺"
+        ],
+        "colour": "#008a45"
+      },
+      {
+        "match": [
+          "能勢"
+        ],
+        "colour": "#6d382d"
+      }
+    ],
+    "line_widths": {
+      "train": 1.14,
+      "transit": 1.58,
+      "coastline": 0.78
+    },
+    "fallback_train": "#656565",
+    "fallback_transit": "#555555",
+    "projection": "legacy-frame"
+  },
+  "expected": {
+    "route_relation_count": 241,
+    "route_way_count": 22314,
+    "station_count": 462,
+    "coast_segment_count": 1867,
+    "context_road_segment_count": 67488,
+    "context_river_segment_count": 28253,
+    "context_water_segment_count": 44914,
+    "context_water_polygon_count": 1835,
+    "route_geometry_sha256": "2f663dba3a29f2312ebf32aa1e2f170ff8c8b4f1a83021d22a990c6e5dd67aa2"
+  },
+  "geometry_sha256": "3e7781b1bbf682bc910e4d049aa6d95852fbc4ab8ce7cd3b42cd1badbbd2b29d",
+  "database_sha256": "0dca636accc43b6abb9e7720b659f5dafa8d2f4eb50d0c8fae6eb7eea33b1ec3",
+  "download_sha256": "91b2ce3c717be2ab1eafadf71f8c975e9f672fd294aa96a1b283dd3ab031499d",
+  "download_bytes": 4450411
+}

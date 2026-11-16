@@ -1,0 +1,65 @@
+{
+  "source": {
+    "network": {
+      "snapshot": "2026-07-28T02:16:18Z",
+      "elements": 31132,
+      "elements_sha256": "22bdfd5ca3519430b2144a83f0d09c724944c36ba82775dd0c4f4a6cacef4291",
+      "saved_response_sha256": "7173d14b74444f9f803f2034278c09561eb401bf0a689ee4ecefc6375c7bd8a9",
+      "original_bytes": 10267546,
+      "endpoint": "https://overpass.private.coffee/api/interpreter"
+    },
+    "context": {
+      "snapshot": "2026-09-07T06:49:56Z",
+      "elements": 365514,
+      "elements_sha256": "c95474d985e637755cbf0d69a515ba542d498809c5b0fc6d75973c222b920224",
+      "saved_response_sha256": "fb071c7bfd3b7bdb77172e6aac1f2609969e5a8d30de7a40afd0630341f415c5",
+      "original_bytes": 42010443,
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+    }
+  },
+  "processing": {
+    "bbox": [
+      34.9,
+      136.65,
+      35.4,
+      137.2
+    ],
+    "relation_colour_routes": [
+      "subway"
+    ],
+    "operator_colours": [
+      {
+        "colour": "#d50032",
+        "match": [
+          "名古屋鉄道",
+          "名鉄",
+          "Meitetsu",
+          "Nagoya Railroad"
+        ]
+      }
+    ],
+    "line_widths": {
+      "coastline": 0.78,
+      "train": 1.14,
+      "transit": 1.58
+    },
+    "fallback_train": "#656565",
+    "fallback_transit": "#555555",
+    "projection": "fitted"
+  },
+  "expected": {
+    "route_relation_count": 98,
+    "route_way_count": 4363,
+    "station_count": 423,
+    "coast_segment_count": 1973,
+    "context_road_segment_count": 109857,
+    "context_river_segment_count": 52997,
+    "context_water_segment_count": 113807,
+    "context_water_polygon_count": 7750,
+    "route_geometry_sha256": "7cf651f51256ba26602b13064e75c7daa2c7f402bc8768729c3290412f121f5b"
+  },
+  "geometry_sha256": "2edcc69b6aca41ef1e93feb6767ef6db8afd1b45f6ae0deff6f5b2b5e8690243",
+  "database_sha256": "d0e4ca714569e07e408b29499edc3504fdeda4ee77edd8c694b9944068c04d65",
+  "download_sha256": "1a9b3c04a668794e0ee91906b633b037ec9023afd0e3575692ccb9472af0dc49",
+  "download_bytes": 8179145
+}
